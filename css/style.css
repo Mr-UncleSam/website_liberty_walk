@@ -192,30 +192,6 @@ body {
 /*--------------------------Nav--------------------------------*/
 /*-------------------------------------------------------------*/
 
-
-  ..nav {
-  height: 100px;
-  width: 100%;
-  background-color: #1C1C1C;
-	opacity: 0.8;
-  font-size: 20px;
-	color: #ffffff;
-  z-index: 10;
-  margin-bottom: -100px;
-  position: relative;
-}
-
-
-
-.logo {
-  width: 10%;
-  max-width: 50px;
-	padding: 10px;
-  float: left;
-}
-
-/*-------------------------------------------------------------*/
-
 .topnav {
   overflow: hidden;
   background-color: #1C1C1C;
@@ -223,6 +199,8 @@ body {
   position: fixed;
   width: 100%;
 	opacity: 0.8;
+  padding: 0;
+  margin: 0;
 }
 
 .topnav a {
@@ -230,7 +208,7 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 18px;
   text-decoration: none;
   font-size: 17px;
   z-index: 10;
@@ -241,7 +219,11 @@ body {
 .logo {
   float: left;
   display: block;
-
+  width: 10%;
+  max-width: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 @media screen and (max-width: 200px) {
@@ -307,7 +289,7 @@ body {
     display: block;
 }
 
-@media screen and (max-width: 1250px) {
+@media only screen and (max-width: 1250px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -317,7 +299,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1250px) {
+@media only screen and (max-width: 1250px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
