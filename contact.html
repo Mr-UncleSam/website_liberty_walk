@@ -28,28 +28,36 @@
 
 <body>
   <header class="nav topnav" id="myTopnav">
-    <img src="img/lb_icon.png" alt="LB" class="logo">
+    <img href="index.html" src="img/lb_icon.png" alt="LB" class="logo">
     <a href="#brands" class="active">Brands</a>
     <a href="#news">Gallery</a>
-    <a href="#contact">Contact</a>
+    <a href="contact.html">Contact</a>
     <a href="javascript:void(0);" style="font-size:45px;" class="icon" onclick="burger_menu()">&#9776;</a>
   </header>
   <main>
-    <h1>Contact us</h1>
     <form>
-      Name: <input type="text" name="fname"><br>
-      Last name: <input type="text" name="lname"><br>
-      Email: <input type="email" name="email"><br>
-      Your thoughts: <input type="text" name="text"><br>
-      <input type="submit" value="Submit">
+      <h1 class="ibm_plex">Contact us</h1>
+      <div class="title ibm_plex">
+        <h2>Name:</h2>
+        <h2>Last name:</h2>
+        <h2>Email:</h2>
+        <h2>Your thoughts:</h2>
+      </div>
+      <div class="input ibm_plex">
+        <input class="input1 ibm_plex" type="text" name="fname"><br>
+        <input class="input1 ibm_plex" type="text" name="lname"><br>
+        <input class="input1 ibm_plex" type="email" name="email"><br>
+        <input class="input1 input2 ibm_plex" type="text" name="text"><br>
+      </div>
+
+      <input class="input3" type="submit" value="Submit">
     </form>
 
   </main>
-  <footer>
+  <footer class="footer_contact">
     <ul class="footer_links">
-      <li><a href="#">Impressum</a></li>
-      <li><a href="#">Sitemap</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="impressum.html">Impressum</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
     <img src="img/lb_icon.png" alt="LB" class="footer_logo">
     <p class="copyright">Copyright Timon Wüthrich, 05. 2018<br>All Rights reserved</p>

@@ -34,7 +34,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
   padding: 16px 18px;
   text-decoration: none;
@@ -42,6 +42,7 @@ body {
   z-index: 10;
   opacity: 0.7;
   background-color: #1C1C1C;
+  font-family: 'IBM Plex Sans Condensed', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 .logo {
@@ -184,7 +185,7 @@ main {
 
 .image {
   width: 100%;
-  background-color: red;
+  background-color: #1C1C1C;
   z-index: 1;
   top: 0;
   display: inline-block;
@@ -202,7 +203,7 @@ h1 {
 }
 
 /*-------------------------------------------------------------*/
-/*--------------------------Footer-----------------------------*/
+/*--------------------------Contact----------------------------*/
 /*-------------------------------------------------------------*/
 
 form {
@@ -210,24 +211,78 @@ form {
   margin: 0px auto;
 }
 
+h1 {
+
+}
+
+.title {
+  float: left;
+  width: 50%;
+}
+
+.input {
+}
+
+.title.h2 {
+  padding-left: 10vw;
+}
+
+.footer_links {
+  float: left;
+}
+
+.input1 {
+  height: 26px;
+  width: 20vw;
+  box-shadow: none;
+  border: 2px solid #000000;
+  margin-top: 20px;
+}
+
+.input1:active {
+}
+
+.input2 {
+
+}
+
+.input3 {
+
+}
+
+.footer_index {
+  margin-top: 100vh;
+}
+
+/*-------------------------------------------------------------*/
+/*--------------------------Impressum--------------------------*/
+/*-------------------------------------------------------------*/
+
+.impressum {
+  width: 60vw;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.footer_impressum {
+  margin-top: 1300px;
+}
 
 /*-------------------------------------------------------------*/
 /*--------------------------Footer-----------------------------*/
 /*-------------------------------------------------------------*/
 
 footer {
-  height: 100px;
+  height: 10vh;
   width: 100%;
   display: block;
   position: relative;
-  background-color: blue;
+  background-color: #1C1C1C;
   float: none;
-  margin-top: 300px;
+  margin-top: 400px;
 }
 
-.footer_links {
-  float: left;
-}
+
 
 .footer_logo {
   width: 5vw;
@@ -244,4 +299,16 @@ footer {
 .footer_link.li {
   text-decoration: none;
   font-size: 12em;
+  color: #ffffff;
+  font-family: 'IBM Plex Sans Condensed', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+
+}
+
+
+.ibm_plex {
+  font-family: 'IBM Plex Sans Condensed', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.pt_serif {
+
 }
