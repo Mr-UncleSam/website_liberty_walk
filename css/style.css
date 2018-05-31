@@ -359,13 +359,16 @@ body {
   width: 100%;
   background-color: red;
   z-index: 1;
-  position: relative;
+  position: absolute;
+  top: 0;
+  display: block;
 }
 
 .subtext {
   height: 100px;
   width: 100%;
   background-color: green;
+  position: inherit;
 }
 
 /*-------------------------------------------------------------*/
@@ -376,4 +379,5 @@ body {
   height: 100px;
   width: 100%;
   background-color: blue;
+  position: relative;
 }
