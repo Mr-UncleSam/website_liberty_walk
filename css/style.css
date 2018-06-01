@@ -315,7 +315,7 @@ h1 {
 /*-------------------------------------------------------------*/
 
 .brands_wrapper {
-  margin-top: 50px;
+  padding-top: 100px;
   width: 20vw;
   margin: 0px auto;
   list-style: none;
@@ -345,6 +345,66 @@ h1 {
       padding-top: 50px;
     }
 
+}
+
+.footer_brands {
+  margin-top: 1000px;
+}
+
+/*-------------------------------------------------------------*/
+/*--------------------------Ford-------------------------------*/
+/*-------------------------------------------------------------*/
+
+.video {
+  float: left;
+  padding-right: 15px;
+}
+
+.description {
+  padding-left: 15px;
+  padding-top: 15px;
+  display: block;
+}
+
+.kaufen {
+  height: 30px;
+  width: 60px;
+  color: #000000;
+  border: 2px solid #000000;
+  padding: 10px 20px;
+  font-family: 'IBM Plex Sans Condensed', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.footer_ford  {
+  margin-top: 1000px;
+}
+
+
+/*-------------------------------------------------------------*/
+/*--------------------------gallery----------------------------*/
+/*-------------------------------------------------------------*/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #000;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #d3d3d3;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
 
 /*-------------------------------------------------------------*/
@@ -404,5 +464,5 @@ footer {
 }
 
 .pt_serif {
-
+  font-family: 'PT Serif', Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
 }
